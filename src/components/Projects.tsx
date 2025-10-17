@@ -11,21 +11,21 @@ const Projects = () => {
     },
     {
       title: "Portal de control de efectivo",
-      description: "Sistema de control administrativo de entrada y salida de efectivo, multimoneda y con segmentacion de denominaciones. Panel de totalización.",
+      description: "Sistema de control administrativo de entrada y salida de efectivo, multimoneda y con segmentacion de denominaciones. Panel de totalización de dinero en caja",
       tags: ["Python", "JavaScript", "Django", "Oracle"],
       featured: false,
     },
     {
       title: "Asistente financiero personal",
-      description: "Workflows asistente financiero personal diseñado para optimizar el control de ingresos y egresos en el contexto venezolano, con funcionalidades avanzadas para el manejo de tasas de cambio múltiples y gestión de cuentas en diferentes monedas. Facilita un seguimiento preciso y adaptado a la realidad económica local, integrando herramientas para la conversión de divisas en tiempo real y la administración eficiente de multicuentas. Operativo de forma multicanal, accesible a través de WhatsApp y Telegram para una interacción fluida y conveniente.",
+      description: "Workflow asistente financiero personal para optimizar el control de ingresos y egresos, con funcionalidades avanzadas para el manejo de tasas de cambio múltiples y gestión de cuentas en diferentes monedas. Conversión de divisas en tiempo real. Accesible a través de WhatsApp y Telegram para una interacción fluida y conveniente.",
       tags: ["n8n", "Supabase", "WhatsApp API Cloud", "Redis", "Telegram"],
-      featured: false,
+      featured: true,
     },
     {
       title: "Agente AI",
-      description: "Integración de un agente de IA en sistema multi perfil en PHP/Laravel. Proporcionando herramientas para la gestión de memoria, llamadas a funciones y sistemas de recuperación aumentada de información. Uso del modelo de Google Gemini",
+      description: "Integración de un agente de IA en sistema de gestión de riesgos multi perfil. Proporcionando herramientas para la gestión de memoria, llamadas a funciones y sistemas de recuperación aumentada de información. Uso del modelo de Google Gemini",
       tags: ["Laravel", "Neuron IA", "Oracle", "Google Gemini"],
-      featured: false,
+      featured: true,
     },
     {
       title: "WhatsApp Chatbot",

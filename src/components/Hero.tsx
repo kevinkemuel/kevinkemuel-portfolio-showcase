@@ -24,52 +24,72 @@ const Hero = () => {
       <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent/20 rounded-full blur-[120px] animate-pulse" style={{ animationDelay: "1s" }} />
 
       {/* Content */}
-      <div className="container mx-auto px-6 z-10 text-center fade-in">
-        <div className="max-w-4xl mx-auto space-y-8">
-          <div className="space-y-4">
-            <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-              Hola, soy{" "}
-              <span className="gradient-text">Kevin Morillo</span>
-            </h1>
-            <h2 className="text-2xl md:text-4xl text-muted-foreground font-light">
-              Full Stack Developer & AI Specialist
-            </h2>
+      <div className="container mx-auto px-6 z-10 fade-in">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+          {/* Profile Photo */}
+          <div className="flex justify-center md:justify-end order-1 md:order-1">
+            <div className="relative group">
+              {/* Gradient border effect */}
+              <div className="absolute -inset-1 bg-gradient-to-r from-primary to-accent rounded-2xl blur opacity-75 group-hover:opacity-100 transition duration-300"></div>
+              <div className="relative">
+                <div className="w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden glass-card p-1">
+                  <img
+                    src="/placeholder.svg"
+                    alt="Kevin Morillo - Full Stack Developer"
+                    className="w-full h-full object-cover rounded-xl"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
 
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Transformo ideas en soluciones digitales innovadoras con{" "}
-            <span className="text-primary font-semibold">7 años de experiencia</span> en desarrollo web,
-            inteligencia artificial y gestión de proyectos.
-          </p>
+          {/* Text Content */}
+          <div className="space-y-8 text-center md:text-left order-2 md:order-2">
+            <div className="space-y-4">
+              <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
+                Hola, soy{" "}
+                <span className="gradient-text">Kevin Morillo</span>
+              </h1>
+              <h2 className="text-xl md:text-3xl text-muted-foreground font-light">
+                Full Stack Developer & AI Specialist
+              </h2>
+            </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button
-              size="lg"
-              className="bg-gradient-to-r from-primary to-accent hover:opacity-90 text-white border-0 px-8 py-6 text-lg font-semibold shadow-[var(--shadow-glow)] hover:shadow-[var(--shadow-glow)] transition-all"
-              onClick={() => scrollToSection("proyectos")}
-            >
-              Ver Proyectos
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-2 border-primary/50 hover:bg-primary/10 px-8 py-6 text-lg"
-              onClick={() => scrollToSection("contacto")}
-            >
-              Contáctame
-            </Button>
-          </div>
+            <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
+              Transformo ideas en soluciones digitales innovadoras con{" "}
+              <span className="text-primary font-semibold">7 años de experiencia</span> en desarrollo web,
+              inteligencia artificial y gestión de proyectos.
+            </p>
 
-          {/* Tech stack badges */}
-          <div className="flex flex-wrap gap-3 justify-center pt-8">
-            {["Laravel", "Python", "JavaScript", "Oracle", "N8N", "AI/ML"].map((tech) => (
-              <span
-                key={tech}
-                className="px-4 py-2 glass-card rounded-full text-sm font-medium hover:scale-110 transition-transform cursor-default"
+            <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start items-center">
+              <Button
+                size="lg"
+                className="bg-gradient-to-r from-primary to-accent hover:opacity-90 text-white border-0 px-8 py-6 text-lg font-semibold shadow-[var(--shadow-glow)] hover:shadow-[var(--shadow-glow)] transition-all"
+                onClick={() => scrollToSection("proyectos")}
               >
-                {tech}
-              </span>
-            ))}
+                Ver Proyectos
+              </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-2 border-primary/50 hover:bg-primary/10 px-8 py-6 text-lg"
+                onClick={() => scrollToSection("contacto")}
+              >
+                Contáctame
+              </Button>
+            </div>
+
+            {/* Tech stack badges */}
+            <div className="flex flex-wrap gap-3 justify-center md:justify-start">
+              {["Laravel", "Python", "JavaScript", "Oracle", "N8N", "AI/ML"].map((tech) => (
+                <span
+                  key={tech}
+                  className="px-4 py-2 glass-card rounded-full text-sm font-medium hover:scale-110 transition-transform cursor-default"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
           </div>
         </div>
 

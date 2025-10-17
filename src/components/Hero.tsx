@@ -37,8 +37,8 @@ const Hero = () => {
           </div>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Transformo ideas en soluciones digitales innovadoras con{" "}
-            <span className="text-primary font-semibold">8 años de experiencia</span> en desarrollo web,
+            Transformo ideas en soluciones digitales innovadoras,{" "}
+            <span className="text-primary font-semibold">experiencia</span> en desarrollo web,
             automatizaciones con inteligencia artificial y gestión de proyectos.
           </p>
 

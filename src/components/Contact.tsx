@@ -7,7 +7,7 @@ const Contact = () => {
       icon: Mail,
       label: "Email",
       value: "kevin.morillo@example.com",
-      link: "mailto:kevin.morillo@example.com",
+      link: "mailto:kevinkemuelm448@gmail.com",
     },
     {
       icon: Linkedin,
@@ -16,10 +16,10 @@ const Contact = () => {
       link: "https://www.linkedin.com/in/kevinkemuelmorillog/",
     },
     {
-      icon: Github,
-      label: "GitHub",
-      value: "@kevinmorillo",
-      link: "https://github.com",
+      icon: Whatsapp,
+      label: "WhatsApp",
+      value: "+58 412-0234944",
+      link: "https://wa.me/584120234944",
     },
     {
       icon: MapPin,

@@ -6,7 +6,7 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "kevin.morillo@example.com",
+      value: "kevinkemuelm448@gmail.com",
       link: "mailto:kevinkemuelm448@gmail.com",
     },
     {
@@ -18,7 +18,7 @@ const Contact = () => {
     {
       icon: MessageCircle,
       label: "WhatsApp",
-      value: "+58 412-0234944",
+      value: "+58 412-023-4944",
       link: "https://wa.me/584120234944",
     },
     {
@@ -99,7 +99,7 @@ const Contact = () => {
               <Button
                 size="lg"
                 className="bg-gradient-to-r from-primary to-accent hover:opacity-90 text-white border-0 px-8 py-6 text-lg font-semibold shadow-[var(--shadow-glow)]"
-                onClick={() => window.open("mailto:kevin.morillo@example.com", "_blank")}
+                onClick={() => window.open("mailto:kevinkemuelm448@gmail.com", "_blank")}
               >
                 Enviar Mensaje
               </Button>

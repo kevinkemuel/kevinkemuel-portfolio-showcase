@@ -33,7 +33,7 @@ const About = () => {
             <h2 className="text-4xl md:text-5xl font-bold">
               Sobre <span className="gradient-text">Mí</span>
             </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Coordinador de Proyectos Web en Humanitas Administradora de Riesgos
             </p>
           </div>

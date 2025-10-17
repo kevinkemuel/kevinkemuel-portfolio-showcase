@@ -38,15 +38,35 @@ const About = () => {
             </p>
           </div>
 
-          {/* Bio */}
-          <div className="glass-card rounded-2xl p-8 md:p-12 fade-in">
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Con <span className="text-primary font-semibold">siete años de experiencia</span> en desarrollo 
-              y coordinación de proyectos web, me especializo en crear soluciones tecnológicas innovadoras 
-              que combinan desarrollo full stack con inteligencia artificial. Mi enfoque está en construir 
-              aplicaciones escalables, eficientes y centradas en el usuario, utilizando las mejores prácticas 
-              y tecnologías modernas.
-            </p>
+          {/* Bio with Photo */}
+          <div className="grid md:grid-cols-2 gap-8 items-center fade-in">
+            {/* Profile Photo */}
+            <div className="flex justify-center">
+              <div className="relative group">
+                {/* Gradient border effect */}
+                <div className="absolute -inset-1 bg-gradient-to-r from-primary to-accent rounded-2xl blur opacity-75 group-hover:opacity-100 transition duration-300"></div>
+                <div className="relative">
+                  <div className="w-64 h-64 md:w-72 md:h-72 rounded-2xl overflow-hidden glass-card p-1">
+                    <img
+                      src="/placeholder.svg"
+                      alt="Kevin Morillo - Full Stack Developer"
+                      className="w-full h-full object-cover rounded-xl"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Bio Text */}
+            <div className="glass-card rounded-2xl p-8">
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Con <span className="text-primary font-semibold">siete años de experiencia</span> en desarrollo 
+                y coordinación de proyectos web, me especializo en crear soluciones tecnológicas innovadoras 
+                que combinan desarrollo full stack con inteligencia artificial. Mi enfoque está en construir 
+                aplicaciones escalables, eficientes y centradas en el usuario, utilizando las mejores prácticas 
+                y tecnologías modernas.
+              </p>
+            </div>
           </div>
 
           {/* Highlights Grid */}

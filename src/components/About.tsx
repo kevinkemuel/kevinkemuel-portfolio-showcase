@@ -48,7 +48,7 @@ const About = () => {
                 <div className="relative">
                   <div className="w-64 h-64 md:w-72 md:h-72 rounded-2xl overflow-hidden glass-card p-1">
                     <img
-                      src="/assets/fotokevinportafolio.jpg"
+                      src="../assets/fotokevinportafolio.jpg"
                       alt="Kevin Morillo - Full Stack Developer"
                       className="w-full h-full object-cover rounded-xl"
                     />

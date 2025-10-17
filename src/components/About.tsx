@@ -1,4 +1,5 @@
 import { Code2, Brain, Rocket, Users } from "lucide-react";
+import fotoKevin from '@/assets/fotokevinportafolio.jpg';
 
 const About = () => {
   const highlights = [
@@ -48,7 +49,7 @@ const About = () => {
                 <div className="relative">
                   <div className="w-64 h-64 md:w-72 md:h-72 rounded-2xl overflow-hidden glass-card p-1">
                     <img
-                      src="../assets/fotokevinportafolio.jpg"
+                      src={fotoKevin}
                       alt="Kevin Morillo - Full Stack Developer"
                       className="w-full h-full object-cover rounded-xl"
                     />

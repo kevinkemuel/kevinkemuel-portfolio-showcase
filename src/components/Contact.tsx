@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Github, MapPin } from "lucide-react";
+import { Mail, Linkedin, Github, MapPin, MessageCircle } from "lucide-react";
 import { Button } from "./ui/button";
 
 const Contact = () => {
@@ -16,7 +16,7 @@ const Contact = () => {
       link: "https://www.linkedin.com/in/kevinkemuelmorillog/",
     },
     {
-      icon: Whatsapp,
+      icon: MessageCircle,
       label: "WhatsApp",
       value: "+58 412-0234944",
       link: "https://wa.me/584120234944",

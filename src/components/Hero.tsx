@@ -38,8 +38,8 @@ const Hero = () => {
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             Transformo ideas en soluciones digitales innovadoras con{" "}
-            <span className="text-primary font-semibold">7 años de experiencia</span> en desarrollo web,
-            inteligencia artificial y gestión de proyectos.
+            <span className="text-primary font-semibold">8 años de experiencia</span> en desarrollo web,
+            automatizaciones con inteligencia artificial y gestión de proyectos.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

@@ -2,7 +2,7 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Frontend",
-      skills: ["JavaScript", "React", "TypeScript", "Tailwind CSS", "HTML5", "CSS3"],
+      skills: ["JavaScript", "React", "JavaScript", "Tailwind CSS", "HTML5", "Bootstrap"],
     },
     {
       title: "Backend",
@@ -10,7 +10,7 @@ const Skills = () => {
     },
     {
       title: "AI & Automation",
-      skills: ["Machine Learning", "N8N", "APIs & Integrations", "Data Analysis", "OpenAI", "LangChain"],
+      skills: ["Chatbots", "N8N", "APIs & Integrations", "Gemini", "OpenAI", "LangChain"],
     },
     {
       title: "Herramientas",

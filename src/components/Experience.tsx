@@ -11,7 +11,7 @@ const Experience = () => {
         "Coordinación de equipos de desarrollo en proyectos web críticos",
         "Implementación de soluciones con IA para optimizar procesos",
         "Gestión de arquitectura y stack tecnológico (Laravel, Oracle, Python)",
-        "Mejora continua de sistemas legacy y migración a tecnologías modernas",
+        "Mejora continua de sistemas internos y migración a tecnologías modernas",
       ],
     },
     {

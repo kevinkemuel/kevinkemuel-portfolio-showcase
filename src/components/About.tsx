@@ -5,12 +5,12 @@ const About = () => {
     {
       icon: Code2,
       title: "Full Stack Developer",
-      description: "Dominio completo de Laravel, Python, JavaScript y tecnologías modernas",
+      description: "Dominio completo de Laravel, Python, JavaScript, Oracle y tecnologías modernas",
     },
     {
       icon: Brain,
       title: "Especialista en IA",
-      description: "Implementación de soluciones con Machine Learning e Inteligencia Artificial",
+      description: "Implementación de automatizaciones con Inteligencia Artificial",
     },
     {
       icon: Rocket,
@@ -60,7 +60,7 @@ const About = () => {
             {/* Bio Text */}
             <div className="glass-card rounded-2xl p-8">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Con <span className="text-primary font-semibold">siete años de experiencia</span> en desarrollo 
+                Con <span className="text-primary font-semibold">ocho años de experiencia</span> en desarrollo 
                 y coordinación de proyectos web, me especializo en crear soluciones tecnológicas innovadoras 
                 que combinan desarrollo full stack con inteligencia artificial. Mi enfoque está en construir 
                 aplicaciones escalables, eficientes y centradas en el usuario, utilizando las mejores prácticas 

@@ -5,26 +5,32 @@ const Projects = () => {
   const projects = [
     {
       title: "Sistema de Gestión de Riesgos",
-      description: "Plataforma web completa para administración y análisis de riesgos laborales en Humanitas. Incluye dashboard analytics, gestión de incidentes y reportes automatizados.",
-      tags: ["Laravel", "Vue.js", "Oracle", "API REST"],
+      description: "Plataforma web completa para solicitud, procesamiento y administración de siniestros. Incluye dashboard analytics, gestión de incidentes, solicitudes medicas y reportes automatizados.",
+      tags: ["Laravel", "JavaScript", "Oracle", "Bootstrap"],
       featured: true,
     },
     {
-      title: "Asistente IA para Automatización",
-      description: "Implementación de workflows inteligentes usando N8N y modelos de ML para automatizar procesos empresariales, reduciendo tiempo de procesamiento en 70%.",
-      tags: ["Python", "N8N", "Machine Learning", "APIs"],
-      featured: true,
-    },
-    {
-      title: "Portal de Clientes B2B",
-      description: "Sistema de gestión de clientes empresariales con autenticación segura, gestión de documentos y panel de métricas en tiempo real.",
-      tags: ["Laravel", "JavaScript", "MySQL", "Tailwind"],
+      title: "Portal de control de efectivo",
+      description: "Sistema de control administrativo de entrada y salida de efectivo, multimoneda y con segmentacion de denominaciones. Panel de totalización.",
+      tags: ["Python", "JavaScript", "Django", "Oracle"],
       featured: false,
     },
     {
-      title: "Integración Multi-Plataforma",
-      description: "API middleware para sincronización de datos entre múltiples sistemas empresariales, con procesamiento de más de 100k registros diarios.",
-      tags: ["Python", "FastAPI", "Oracle", "Redis"],
+      title: "Asistente financiero personal",
+      description: "Workflows asistente financiero personal diseñado para optimizar el control de ingresos y egresos en el contexto venezolano, con funcionalidades avanzadas para el manejo de tasas de cambio múltiples y gestión de cuentas en diferentes monedas. Facilita un seguimiento preciso y adaptado a la realidad económica local, integrando herramientas para la conversión de divisas en tiempo real y la administración eficiente de multicuentas. Operativo de forma multicanal, accesible a través de WhatsApp y Telegram para una interacción fluida y conveniente.",
+      tags: ["n8n", "Supabase", "WhatsApp API Cloud", "Redis", "Telegram"],
+      featured: false,
+    },
+    {
+      title: "Agente AI",
+      description: "Integración de un agente de IA en sistema multi perfil en PHP/Laravel. Proporcionando herramientas para la gestión de memoria, llamadas a funciones y sistemas de recuperación aumentada de información. Uso del modelo de Google Gemini",
+      tags: ["Laravel", "Neuron IA", "Oracle", "Google Gemini"],
+      featured: false,
+    },
+    {
+      title: "WhatsApp Chatbot",
+      description: "Chatbot de WhatsApp para consultas y atención al cliente. Conexión mediante API para obtener datos y dar información personalizada. Conexión a plataforma de comunicación con agentes de atención.",
+      tags: ["WhatsApp API Cloud", "Chatbot Development", "Oracle", "API Development"],
       featured: false,
     },
   ];

@@ -21,15 +21,15 @@ const Footer = () => {
               LinkedIn
             </a>
             <a
-              href="https://github.com"
+              href="https://wa.me/584120234944"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors text-sm"
             >
-              GitHub
+              WhatsApp
             </a>
             <a
-              href="mailto:kevin.morillo@example.com"
+              href="mailto:kevinkemuelm448@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors text-sm"
             >
               Email

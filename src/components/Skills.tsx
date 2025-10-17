@@ -28,7 +28,7 @@ const Skills = () => {
               Habilidades <span className="gradient-text">Técnicas</span>
             </h2>
             <p className="text-xl text-muted-foreground">
-              Stack tecnológico y expertise
+              Stack tecnológico y experticia
             </p>
           </div>
 

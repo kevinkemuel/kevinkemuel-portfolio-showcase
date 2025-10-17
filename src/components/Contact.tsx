@@ -99,7 +99,7 @@ const Contact = () => {
               <Button
                 size="lg"
                 className="bg-gradient-to-r from-primary to-accent hover:opacity-90 text-white border-0 px-8 py-6 text-lg font-semibold shadow-[var(--shadow-glow)]"
-                onClick={() => window.open("mailto:kevinkemuelm448@gmail.com", "_blank")}
+                onClick={() => window.open("https://wa.me/584120234944", "_blank")}
               >
                 Enviar Mensaje
               </Button>

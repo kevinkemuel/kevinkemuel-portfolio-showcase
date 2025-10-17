@@ -85,7 +85,7 @@ const Projects = () => {
                     ))}
                   </div>
 
-                  <div className="flex gap-3 pt-2">
+                  {/* <div className="flex gap-3 pt-2">
                     <Button
                       variant="ghost"
                       size="sm"
@@ -102,7 +102,7 @@ const Projects = () => {
                       <ExternalLink className="w-4 h-4" />
                       Demo
                     </Button>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             ))}

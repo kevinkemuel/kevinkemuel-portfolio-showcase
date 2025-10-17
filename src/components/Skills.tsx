@@ -2,39 +2,19 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Frontend",
-      skills: [
-        { name: "JavaScript", level: 95 },
-        { name: "React", level: 90 },
-        { name: "TypeScript", level: 85 },
-        { name: "Tailwind CSS", level: 90 },
-      ],
+      skills: ["JavaScript", "React", "TypeScript", "Tailwind CSS", "HTML5", "CSS3"],
     },
     {
       title: "Backend",
-      skills: [
-        { name: "Laravel", level: 95 },
-        { name: "Python", level: 90 },
-        { name: "Node.js", level: 85 },
-        { name: "Oracle", level: 80 },
-      ],
+      skills: ["Laravel", "Python", "Node.js", "Oracle", "MySQL", "PostgreSQL"],
     },
     {
       title: "AI & Automation",
-      skills: [
-        { name: "Machine Learning", level: 85 },
-        { name: "N8N", level: 90 },
-        { name: "APIs & Integrations", level: 95 },
-        { name: "Data Analysis", level: 80 },
-      ],
+      skills: ["Machine Learning", "N8N", "APIs & Integrations", "Data Analysis", "OpenAI", "LangChain"],
     },
     {
       title: "Herramientas",
-      skills: [
-        { name: "Git", level: 95 },
-        { name: "Docker", level: 80 },
-        { name: "Project Management", level: 90 },
-        { name: "Agile/Scrum", level: 85 },
-      ],
+      skills: ["Git", "Docker", "VS Code", "Postman", "Agile/Scrum"],
     },
   ];
 
@@ -61,23 +41,14 @@ const Skills = () => {
                 style={{ animationDelay: `${catIndex * 0.1}s` }}
               >
                 <h3 className="text-2xl font-bold text-primary">{category.title}</h3>
-                <div className="space-y-4">
+                <div className="flex flex-wrap gap-3">
                   {category.skills.map((skill, skillIndex) => (
-                    <div key={skillIndex} className="space-y-2">
-                      <div className="flex justify-between items-center">
-                        <span className="font-medium">{skill.name}</span>
-                        <span className="text-sm text-muted-foreground">{skill.level}%</span>
-                      </div>
-                      <div className="h-2 bg-muted rounded-full overflow-hidden">
-                        <div
-                          className="h-full bg-gradient-to-r from-primary to-accent rounded-full transition-all duration-1000 ease-out"
-                          style={{
-                            width: `${skill.level}%`,
-                            animation: `slideIn 1s ease-out ${skillIndex * 0.1}s forwards`,
-                          }}
-                        />
-                      </div>
-                    </div>
+                    <span
+                      key={skillIndex}
+                      className="px-4 py-2 bg-primary/10 border border-primary/20 rounded-lg text-sm font-medium hover:bg-primary/20 transition-colors duration-300"
+                    >
+                      {skill}
+                    </span>
                   ))}
                 </div>
               </div>
@@ -86,13 +57,6 @@ const Skills = () => {
         </div>
       </div>
 
-      <style>{`
-        @keyframes slideIn {
-          from {
-            width: 0%;
-          }
-        }
-      `}</style>
     </section>
   );
 };

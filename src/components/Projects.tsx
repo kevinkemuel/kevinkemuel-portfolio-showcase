@@ -11,7 +11,7 @@ const Projects = () => {
     },
     {
       title: "Portal de control de efectivo",
-      description: "Sistema de control administrativo de entrada y salida de efectivo, multimoneda y con segmentacion de denominaciones. Panel de totalización de dinero en caja",
+      description: "Sistema de control administrativo de entrada y salida de efectivo, multimoneda y con segmentacion de denominaciones. Panel de totalización de dinero disponible en caja.",
       tags: ["Python", "JavaScript", "Django", "Oracle"],
       featured: false,
     },
@@ -23,7 +23,7 @@ const Projects = () => {
     },
     {
       title: "Agente AI",
-      description: "Integración de un agente de IA en sistema de gestión de riesgos multi perfil. Proporcionando herramientas para la gestión de memoria, llamadas a funciones y sistemas de recuperación aumentada de información. Uso del modelo de Google Gemini",
+      description: "Integración de un agente de IA en sistema de gestión de riesgos multi perfil. Proporcionando herramientas para la gestión de memoria, llamadas a funciones y sistemas de recuperación aumentada de información. Uso del modelo de Google Gemini.",
       tags: ["Laravel", "Neuron IA", "Oracle", "Google Gemini"],
       featured: true,
     },

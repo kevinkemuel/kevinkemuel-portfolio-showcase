@@ -13,7 +13,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <div 
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${heroBg})` }}
+          style={{ backgroundImage: "url('/portafolio/hero-bg.jpg')" }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/95 via-background/90 to-background" />
         <div className="absolute inset-0 bg-[var(--gradient-hero)]" />

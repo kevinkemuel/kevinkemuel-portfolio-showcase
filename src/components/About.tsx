@@ -1,5 +1,5 @@
 import { Code2, Brain, Rocket, Users } from "lucide-react";
-import fotoKevin from '@/assets/fotokevinportafolio.jpg';
+import fotoKevin from '../assets/fotokevinportafolio.jpg';
 
 const About = () => {
   const highlights = [
